@@ -15,8 +15,8 @@ function Hero() {
             <img src={right} alt="" />
           </div>
           <div className="py-10 px-5 text-center">
-            <h1 className="text-4xl">Group Chat for Everyone</h1>
-            <p className="text-[#87879D] text-md">
+            <h1 className="text-4xl pb-3">Group Chat for Everyone</h1>
+            <p className="text-[#87879D] text-md ">
               Meet makes it easy to connect with others face-to-face virtually
               and collaborate across any device.
             </p>
@@ -30,7 +30,6 @@ function Hero() {
             </button>
           </div>
           <div className="flex items-center justify-center flex-col py-10">
-            {/* <div className="w-[0.1rem] h-10 bg-gray-500"></div> */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="1"
@@ -44,7 +43,7 @@ function Hero() {
                 stroke="#87879D"
               />
             </svg>
-            <div className="border rounded-full px-5 py-4">01</div>
+            <div className="border rounded-full px-5 py-4 font-bold text-[#87879D]">01</div>
           </div>
         </div>
       </section>
